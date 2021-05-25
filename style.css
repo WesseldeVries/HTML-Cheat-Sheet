@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+    font-family: 'Muli', sans-serif;
+    color: whitesmoke;
+    background-color: navy;
+}
+
+table {
+    border: 1px solid;
+}
+
+a:hover {
+    color: yellow;
+}
+
+li {
+    list-style-type: none;
+}
+
+footer {
+    font-size: 14px;
+}
