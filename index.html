@@ -30,24 +30,24 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>&lt;!DOCTYPE html&gt;</td>
-                            <td>document type declaration</td>
-                            <td>A declaration to the browser about what type of document to expect. In this case: HTML.</td>
+                            <td class="tag">&lt;!DOCTYPE html&gt;</td>
+                            <td class="name">document type declaration</td>
+                            <td class="description">A declaration to the browser about what type of document to expect. In this case: HTML.</td>
                         </tr>
                         <tr>
-                            <td>&lt;html&gt;</td>
-                            <td>html element</td>
-                            <td>The root of the html document. All content should be placed between its opening an closing tag.</td>
+                            <td class="tag">&lt;html&gt;</td>
+                            <td class="name">html element</td>
+                            <td class="description">The root of the html document. All content should be placed between its opening an closing tag.</td>
                         </tr>
                         <tr>
-                            <td>&lt;head&gt;</td>
-                            <td>head element</td>
-                            <td>Contains the metadata of the html document. E.g. the page title and links to CSS documents.</td>
+                            <td class="tag">&lt;head&gt;</td>
+                            <td class="name">head element</td>
+                            <td class="description">Contains the metadata of the html document. E.g. the page title and links to CSS documents.</td>
                         </tr>
                         <tr>
-                            <td>&lt;body&gt;</td>
-                            <td>body element</td>
-                            <td>Represents the concent of the html document. Content of the body is rendered by the browser.</td>
+                            <td class="tag">&lt;body&gt;</td>
+                            <td class="name">body element</td>
+                            <td class="description">Represents the concent of the html document. Content of the body is rendered by the browser.</td>
                         </tr>
                     </tbody>
                 </table>
@@ -69,6 +69,7 @@
             <section id='tables'>
                 <h2>HTML Tables</h2>
                 <p>This section will describe how to make HTML tables.</p>
+                <h3>Table elements</h3>
                 <table>
                     <thead>
                         <tr>
@@ -77,7 +78,65 @@
                             <th>Description</th>
                         </tr>
                     </thead>
-                    <tbody></tbody>
+                    <tbody>
+                        <tr>
+                            <td class="tag">&lt;table&gt;</td>
+                            <td class='name'>table element</td>
+                            <td class='description'>The wrapper element for all HTML tables.</td>
+                        </tr>
+                        <tr>
+                            <td class="tag">&lt;thead&gt;</td>
+                            <td class='name'>table head element</td>
+                            <td class='description'>The set of rows defining the column headers in a table.</td>
+                        </tr>
+                        <tr>
+                            <td class="tag">&lt;tbody&gt;</td>
+                            <td class='name'>table body element</td>
+                            <td class='description'>The set of rows containing actual table data.</td>
+                        </tr>
+                        <tr>
+                            <td class="tag">&lt;tfoot&gt;</td>
+                            <td class='name'>table footer element</td>
+                            <td class='description'>The set of rows defining the footer in a table.</td>
+                        </tr>
+                        <tr>
+                            <td class="tag">&lt;th&gt;</td>
+                            <td class='name'>table heading element</td>
+                            <td class='description'>Defines cells as headers of columns or rows. </td>
+                        </tr>
+                        <tr>
+                            <td class="tag">&lt;tr&gt;</td>
+                            <td class='name'>table row element</td>
+                            <td class='description'>The table row container.</td>
+                        </tr>
+                        <tr>
+                            <td class="tag">&lt;td&gt;</td>
+                            <td class='name'>table data element</td>
+                            <td class='description'>The table cell container.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Table attributes</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Attribute</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="attribute">colspan</td>
+                            <td class='name'>colspan attribute</td>
+                            <td class='description'>Defines how many columns a td element should span.</td>
+                        </tr>
+                        <tr>
+                            <td class="attribute">rowspan</td>
+                            <td class='name'>rowspan attribute</td>
+                            <td class='description'>Defines how many rows a td element should span.</td>
+                        </tr>
+                    </tbody>
                 </table>
             </section>
             <section id='semantics'>
