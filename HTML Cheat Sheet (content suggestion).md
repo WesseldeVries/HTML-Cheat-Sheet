@@ -1,4 +1,4 @@
-# HTML Cheat Sheet (content suggestions)#
+# HTML Cheat Sheet (content suggestions) #
 ## HTML Elements ##
 
 ### Text Elements ###
@@ -25,14 +25,3 @@
 - alt
 - href
 - src
-
-## Semantic HTML ##
-- &lt;header&gt;
-- &lt;nav&gt;
-- &lt;main&gt;
-- &lt;figure&gt;
-- &lt;figcaption&gt;
-- &lt;section&gt;
-- &lt;article&gt;
-- &lt;aside&gt;
-- &lt;footer&gt;
